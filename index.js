@@ -3,7 +3,8 @@
 'use strict';
 
 var fetch = require('./lib/fetch'),
-    migrate = require('./lib/migrate');
+    migrate = require('./lib/migrate'),
+    slugs = require('./lib/slugs');
 
 let argv = require('yargs')
     .string('action')
@@ -11,6 +12,8 @@ let argv = require('yargs')
 
 if (argv.action === 'fetch') {
     return fetch.run();
-} else if (argv.action === 'migrate') {
+} else if (true || argv.action === 'migrate') {
     return migrate.run();
+} else if (argv.action === 'slugs') {
+    return slugs.run();
 }

@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Leerstandsmelder/leerstandsmelder-migration-tools/issues"
   },
-  "homepage": "https://github.com/Leerstandsmelder/leerstandsmelder-migration-tools#readme"
+  "homepage": "https://github.com/Leerstandsmelder/leerstandsmelder-migration-tools#readme",
+  "dependencies": {
+    "slug": "^0.9.1"
+  }
 }
