@@ -1,0 +1,26 @@
+{
+  "name": "leerstandsmelder-migration-tools",
+  "version": "0.1.0",
+  "description": "Commandline tool to migrate the legacy data to the new structure",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Leerstandsmelder/leerstandsmelder-migration-tools.git"
+  },
+  "keywords": [
+    "Leerstandsmelder",
+    "tools",
+    "utility",
+    "migration"
+  ],
+  "author": "Anton Koch <antonymousfeedback@gmail.com> (http://htmhell.de)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Leerstandsmelder/leerstandsmelder-migration-tools/issues"
+  },
+  "homepage": "https://github.com/Leerstandsmelder/leerstandsmelder-migration-tools#readme"
+}
