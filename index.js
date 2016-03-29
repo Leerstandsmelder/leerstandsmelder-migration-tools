@@ -12,7 +12,7 @@ let argv = require('yargs')
 
 if (argv.action === 'fetch') {
     return fetch.run();
-} else if (true || argv.action === 'migrate') {
+} else if (argv.action === 'migrate') {
     return migrate.run();
 } else if (argv.action === 'slugs') {
     return slugs.run();
