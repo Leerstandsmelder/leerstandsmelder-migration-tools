@@ -10,7 +10,7 @@ let argv = require('yargs')
     .string('action')
     .argv;
 
-if (argv.action === 'fetch') {
+if (true || argv.action === 'fetch') {
     return fetch.run();
 } else if (argv.action === 'migrate') {
     return migrate.run();
