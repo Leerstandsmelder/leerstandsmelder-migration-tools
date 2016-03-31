@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/Leerstandsmelder/leerstandsmelder-migration-tools#readme",
   "dependencies": {
-    "slug": "^0.9.1"
+    "slug": "^0.9.1",
+    "to-markdown": "^2.0.1"
   }
 }
