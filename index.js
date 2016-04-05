@@ -5,7 +5,8 @@
 var fetch = require('./lib/fetch'),
     migrate = require('./lib/migrate'),
     slugs = require('./lib/slugs'),
-    convert = require('./lib/convert');
+    convert = require('./lib/convert'),
+    setHidden = require('./lib/set-hidden');
 
 let argv = require('yargs')
     .string('action')
@@ -17,6 +18,8 @@ if (argv.action === 'fetch') {
     return migrate.run();
 } else if (argv.action === 'slugs') {
     return slugs.run();
-} else if (true || argv.action === 'convert') {
+} else if (argv.action === 'convert') {
     return convert.run();
+} else if (argv.action === 'set-hidden') {
+    return setHidden.run();
 }
